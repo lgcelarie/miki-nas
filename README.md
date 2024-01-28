@@ -9,7 +9,8 @@ This is just a repository for a few services that i implement on my Homeserver. 
 First of all, build the images from the root and the `worker` folder. After that, you can use the orchestration tool of choice. At the moment, i will use docker compose, but possibly include a helm repo, just to use Kubernetes hehe.
 
 Here's an example of the contents of the `docker-compose.yaml`:
-`services:
+```
+services:
 
 worker:
 
@@ -70,7 +71,8 @@ interval: 30s
 
 timeout: 30s
 
-retries: 10`
+retries: 10
+```
 
 ## Support
 There is none. I mean, this is not really meant for production environments.
